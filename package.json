@@ -1,16 +1,22 @@
 {
   "name": "js-aqa",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "dependencies": {
-    "chalk": "^5.3.0"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrvrInCmbt/js-aqa.git"
+  },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "bugs": {
+    "url": "https://github.com/FrvrInCmbt/js-aqa/issues"
+  },
+  "homepage": "https://github.com/FrvrInCmbt/js-aqa#readme",
+  "dependencies": {
+    "chalk": "^5.3.0"
+  }
 }
