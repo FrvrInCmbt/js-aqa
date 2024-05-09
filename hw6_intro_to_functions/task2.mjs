@@ -1,10 +1,6 @@
 function ageComparison (age){
-    if(age >= 18){
-        return true;
-    } else{
-        return false;
-    }
+    return age >= 18
 }
 
-console.log(ageComparison(15));
-console.log(ageComparison(25));
+console.log(ageComparison(18));
+console.log(ageComparison(17));
