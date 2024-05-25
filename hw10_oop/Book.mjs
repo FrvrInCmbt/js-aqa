@@ -12,7 +12,7 @@ class Book {
     }
 
     set title(title){
-        if(typeof title != "string") throw new Error("Title should be a string, not a number");
+        if(typeof title !== "string") throw new Error("Title should be a string");
         this._title = title
     }
 
