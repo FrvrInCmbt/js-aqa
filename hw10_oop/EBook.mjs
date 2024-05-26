@@ -1,7 +1,6 @@
 import { Book } from "./Book.mjs";
-export{EBook}
 
-class EBook extends Book {
+export class EBook extends Book {
     constructor(title, author, release, format){
         super(title, author, release)
         this._format = format

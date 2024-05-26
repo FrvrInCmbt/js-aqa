@@ -1,6 +1,4 @@
-export {Book}
-
-class Book {
+export class Book {
     constructor(title, author, release){
         this._title = title;
         this._author = author;
