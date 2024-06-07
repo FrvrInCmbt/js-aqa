@@ -5,7 +5,5 @@ let combinedArray = firstArray.concat(secondArray);
 
 console.log(combinedArray);
 
-
-
 const unitedArray = [...firstArray, ...secondArray];
 console.log(unitedArray);

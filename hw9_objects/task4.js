@@ -6,9 +6,8 @@ let person = {
 
 console.log(person);
 
-
 person.email = "derrick.rose@chicagobulls.com";
 console.log(person);
 
-delete(person.age);
+delete person.age;
 console.log(person);
