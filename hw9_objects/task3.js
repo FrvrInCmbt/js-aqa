@@ -10,7 +10,5 @@ let car2 = {
     owner: 2023
 };
 
-
 let car3 = {...car1, ...car2};
-console.log(car3)
-
+console.log(car3);

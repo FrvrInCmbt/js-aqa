@@ -1,7 +1,7 @@
-import { Book } from "./Book.mjs";
-import { EBook } from "./EBook.mjs"
+import {Book} from "./Book.mjs";
+import {EBook} from "./EBook.mjs";
 
-let book = new Book("It" , "Stephen King", 1986);
+let book = new Book("It", "Stephen King", 1986);
 let book1 = new Book("Shining", "Stephen King", 1977);
 let book2 = new Book("Lord of the Rings", "J. R. Tolkin", 1954);
 
@@ -17,11 +17,10 @@ ebook.printInfo();
 ebook1.printInfo();
 ebook2.printInfo();
 
-
 let oldBook = Book.printOldestBook([book, book1, book2, ebook, ebook1, ebook2]);
 console.log(oldBook);
 
-const ebook3 = EBook.ebookGenerator(book2, "PDF")
+const ebook3 = EBook.ebookGenerator(book2, "PDF");
 console.log(ebook3);
 ebook3.printInfo();
 
@@ -31,7 +30,3 @@ ebook3.printInfo();
 //book1.release = 1990;
 //ebook2.format = 123;
 //ebook2.title = 1;
-
-
-
-

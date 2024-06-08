@@ -1,4 +1,4 @@
-let greeting = 'Hello , how are you?';
+let greeting = "Hello , how are you?";
 let digit = 33;
 let isTruthy = true;
 let isFalthy = false;

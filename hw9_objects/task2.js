@@ -4,10 +4,8 @@ let book = {
     releaseDate: 1974
 };
 
-let {title, author,...rest} = book;
+let {title, author, ...rest} = book;
 console.log(rest);
-
-
 
 let book1 = {
     title: "Carry",

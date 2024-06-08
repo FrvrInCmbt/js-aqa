@@ -9,7 +9,7 @@ delete user.surname;
 //console.log(user);
 //---------------------------------------
 function isEmptyObject(obj) {
-    for (let key in obj){
+    for (let key in obj) {
         return false;
     }
     return true;
@@ -20,14 +20,14 @@ function isEmptyObject(obj) {
 //-----------------------------------------
 
 let salaries = {
-  John: 100,
-  Ann: 160,
-  Pete: 130
-}
+    John: 100,
+    Ann: 160,
+    Pete: 130
+};
 
 let sum = 0;
-for(let key in salaries){
-    sum += salaries[key]
+for (let key in salaries) {
+    sum += salaries[key];
 }
 //console.log(sum);
 
@@ -37,7 +37,7 @@ let menu = {
     width: 200,
     height: 300,
     title: "My menu"
-}
+};
 
 function multiplyNumeric() {
     for (let key in menu) {
@@ -52,4 +52,3 @@ multiplyNumeric(menu);
 //console.log(menu);
 
 //---------------------------------------
-

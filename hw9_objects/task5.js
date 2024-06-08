@@ -10,4 +10,3 @@ console.log(user);
 for (let {name: uName, email: uEmail, age: uAge} of user) {
     console.log(`${uName} , ${uAge} , ${uEmail}`);
 }
-

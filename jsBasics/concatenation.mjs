@@ -1,5 +1,5 @@
-let man = 'Sean Connery';
-let woman = 'Olga Symska';
+let man = "Sean Connery";
+let woman = "Olga Symska";
 
 console.log(`Hello sir ${man} and miss ${woman} we glad to see you!`);
 

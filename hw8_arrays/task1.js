@@ -4,13 +4,13 @@ let positiveCount = 0;
 let negativeCount = 0;
 let zeroCount = 0;
 
-for(let num of numbers){
-    if(num > 0) {
-        positiveCount++
-    } else if(num === 0) {
-        zeroCount++
+for (let num of numbers) {
+    if (num > 0) {
+        positiveCount++;
+    } else if (num === 0) {
+        zeroCount++;
     } else {
-        negativeCount++
+        negativeCount++;
     }
 }
 
